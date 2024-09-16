@@ -23,7 +23,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.verifyToken = exports.Password = exports.httpStatus = exports.successResponse = exports.codeGen = exports.TokenManager = void 0;
+exports.IdentityGenerator = exports.verifyToken = exports.Password = exports.httpStatus = exports.successResponse = exports.codeGen = exports.TokenManager = void 0;
 exports.TokenManager = __importStar(require("./lib/jwtModule"));
 var codeGen_1 = require("./helpers/codeGen");
 Object.defineProperty(exports, "codeGen", { enumerable: true, get: function () { return codeGen_1.codeGen; } });
@@ -35,3 +35,5 @@ var password_1 = require("./lib/password");
 Object.defineProperty(exports, "Password", { enumerable: true, get: function () { return password_1.Password; } });
 var verifyToken_1 = require("./middlewares/verifyToken");
 Object.defineProperty(exports, "verifyToken", { enumerable: true, get: function () { return verifyToken_1.verifyToken; } });
+var identityGenerator_1 = require("./helpers/identityGenerator");
+Object.defineProperty(exports, "IdentityGenerator", { enumerable: true, get: function () { return identityGenerator_1.IdentityGenerator; } });
