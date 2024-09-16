@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "justtalk-8402a",
+  "private_key_id": "5fba89171a097309b8e945e85ccffb951ab11531",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCiqk0weDqd1t0y\nXibWmjPPkglYnK1ZwQVob4My2KdnXBvEkxoV8MgacPYEdmureokd7WbHhwl+31NZ\ncw0LXbMOOxMtbe4/aj6OA9tI1BfIie3T4sSBcj3MRNO+HqpaxAeaEcpyiEgNOJhU\naIt/v8qL8htP0rz7jMsg7/bGhX4yxmAzGDfpRplBW0VW4TTosjy0dkRZq1d+C1oz\nJctgYNBfBYK8S1sjgYkY3mFZly0wIfcp8AymAK56+f83BKVWIDh6i+D4BgyadzRc\nl7bnOIDu7rtyXYZOeHA4zRzmmtkmmerhMJnPuEoSSgp5kQd5jtnAUBLBpkGxnC2C\nOjz7MiPHAgMBAAECggEADph6WZ2IIO6NJX5WPM5UVM01Qnq4gUO1EQRkgNT43Gji\n4vYSEqLqyZiWMptPmPDjScip/sBKpVQzneSZaIotTVsWou5owM7vMv38mKHTSn65\n1NfVqwnNqr0IRNhqj79kMTpkcHdzA6Cu5nAFCF70tS7xrW1q4KVm+psdiP2kb7jB\nRpBcJKbL3uhXhFKRSsHhTzymhXws+91BMy+CjX+8aswvnKvAFuKk/bZuCbVhfTHx\nY/7lm+abryUh/3HeBayr38ruCSFYy7pccajzCMKlLl2ea6SbPK5KMiax6yJFraFi\nyL8YCuBKdGMH1UgLdacZD357wCEJmN4Zb6P0tY3MuQKBgQDjRimWFZsbZ/wbZCvV\n0Gqjm35cby+h8plg/s+b5yoVYp8sJ9dU7cVZtjwq9sLo0CPpgFumSVy4N7rAGApS\nKyuXNtfmmtijsV45F2UIoQ9B4SvEAerCtPi7JveuU9jmiBrjAkSNzfu5PF29c+hG\n5z2HCfJL8IDvxle2kt3i4+jyTwKBgQC3OZxjT9o5XJhIi406eAZLaBIlP8HX5Bzt\nc/O5PEwspqfWrx+lA9XU80GOg5eB111jcsIbDq8UxM+0/DNEtnkDixtbM70H3uHR\nG2NzqybKCN9s1plXFE5pJkF6xSlOEODVPD3r1jA4bsVDaMpv1GY7VKy8c3hwEfts\nbtUIrrexCQKBgBWeZPJL19dBiu+oFatfCeXKMrjkMqm7A/AADQuNb6ldGjr/BzKi\n83TXKt4DXwL6WZAqj40/yTwUwQToxIKQbLMTmnHrJNRdWNMhcJDjkSn5G0qnzAb9\nY/OZf1Hr0+QJ6lTRsGe0wk8aeOg+kEe+U1H3Fj82/2zPdyR8z/J3L39tAoGAbTrd\nLp+GOzgmWOlJEphHOGEcoDQ4PZpyXGUJ4V4/E0dvO58/QELfEYrLhEiS5AceV5Es\ngrDoU3tZUE4hyk72KdSeRGq9wJlxChZH3cck4sETYXE2DSG/9ROnaadsjmulfbni\nOFyCdsIiu6MXPD/lim1aZSZ5oGY3+1a/jeOLAvECgYEA4mz9uJZr+AlkoTchpzpY\n/U5icwv1mbQf7xO0sVfrrk0SYrcAQSIp0DVnG5TG3n2YhrFPhqPR3MeqJBfRpTOi\nP+oe/ipcyc/7g5UW0PbaP25jNYGjO8GzipLDEQluOW5AQHPmA5/RtLOTyVWJma1K\nhdw1x8EfNpZ56vmhqnhNOJM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "justtalk-8402a@appspot.gserviceaccount.com",
+  "client_id": "112204513938852207592",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/justtalk-8402a%40appspot.gserviceaccount.com"
+}
