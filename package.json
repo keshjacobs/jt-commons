@@ -16,9 +16,7 @@
 		"express-validator": "^7.2.0",
 		"form-data": "^4.0.0",
 		"express": "^4.19.2",
-		"body-parser": "^1.20.2",
-		"jt-models": "git+https://github.com/keshjacobs/jt-db-models.git#master",
-		"jt-commons": "git+https://github.com/keshjacobs/jt-commons.git#master"
+		"body-parser": "^1.20.2"
 	},
 	"devDependencies": {
 		"@types/bcrypt": "^5.0.2",
