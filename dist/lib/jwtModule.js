@@ -9,7 +9,6 @@ function sign(payload) {
     const signingOptions = {
         expiresIn: "1d",
     };
-    console.log("JWT_KEY:", config_1.default.JWT_TOKEN);
     return jsonwebtoken_1.default.sign(payload, config_1.default.JWT_TOKEN, signingOptions);
 }
 function parseTokenFromAuthorizationHeader(req) {
