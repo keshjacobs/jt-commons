@@ -16,21 +16,20 @@ export class Password {
 		const buf = (await scryptAsync(suppliedPassword, salt, 64)) as Buffer;
 		return buf.toString("hex") === hashedPassword;
 	}
-	
-	static async encrypt (providedPassword: string){
-		var salt = genSaltSync(139);
+
+	static async encrypt(providedPassword: string) {
+		var salt = genSaltSync(10);
 		var hash = hashSync(providedPassword, salt);
 		return hash;
-	};
-  
-  
-   static async verify (passwordProvided: string, hash: string){
-	console.log("verifying password....");
-	if(hash || hash!=undefined){
-	  return compareSync(passwordProvided, hash);
-	}else{
-	  console.log("no saved password");
-	  return false;
 	}
-  };
+
+	static async verify(passwordProvided: string, hash: string) {
+		console.log("verifying password....");
+		if (hash || hash != undefined) {
+			return compareSync(passwordProvided, hash);
+		} else {
+			console.log("no saved password");
+			return false;
+		}
+	}
 }
