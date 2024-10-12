@@ -3,7 +3,7 @@ import jwt, { SignOptions } from "jsonwebtoken";
 
 function sign(payload: any) {
 	const signingOptions: SignOptions = {
-		expiresIn: "1d",
+		expiresIn: "365d",
 	};
 	return jwt.sign(payload, config.JWT_TOKEN as string, signingOptions);
 }
