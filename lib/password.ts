@@ -18,8 +18,8 @@ export class Password {
 	}
 
 	static async encrypt(providedPassword: string) {
-		var salt = genSaltSync(10);
-		var hash = hashSync(providedPassword, salt);
+		var hash = hashSync(providedPassword, 10); 
+		console.log('Generated Hash:', hash);
 		return hash;
 	}
 
