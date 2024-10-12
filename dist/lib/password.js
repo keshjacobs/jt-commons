@@ -17,8 +17,8 @@ class Password {
         return buf.toString("hex") === hashedPassword;
     }
     static async encrypt(providedPassword) {
-        var salt = (0, bcrypt_1.genSaltSync)(10);
-        var hash = (0, bcrypt_1.hashSync)(providedPassword, salt);
+        var hash = (0, bcrypt_1.hashSync)(providedPassword, 10);
+        console.log('Generated Hash:', hash);
         return hash;
     }
     static async verify(passwordProvided, hash) {
