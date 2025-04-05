@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.NotificationEvents = exports.verifyToken = exports.Password = exports.JwtModule = exports.IdentityGenerator = exports.httpStatus = exports.errorResponse = exports.successResponse = exports.getVerificationCodeExpiryDate = exports.generateVerificationCode = exports.codeGen = void 0;
+exports.BadgePoints = exports.BadgeLevels = exports.NotificationEvents = exports.verifyToken = exports.Password = exports.JwtModule = exports.IdentityGenerator = exports.httpStatus = exports.errorResponse = exports.successResponse = exports.getVerificationCodeExpiryDate = exports.generateVerificationCode = exports.codeGen = void 0;
 // Helpers
 var helpers_1 = require("./helpers");
 Object.defineProperty(exports, "codeGen", { enumerable: true, get: function () { return helpers_1.codeGen; } });
@@ -20,3 +20,5 @@ Object.defineProperty(exports, "verifyToken", { enumerable: true, get: function 
 // Enums
 var enums_1 = require("./enums");
 Object.defineProperty(exports, "NotificationEvents", { enumerable: true, get: function () { return enums_1.NotificationEvents; } });
+Object.defineProperty(exports, "BadgeLevels", { enumerable: true, get: function () { return enums_1.BadgeLevels; } });
+Object.defineProperty(exports, "BadgePoints", { enumerable: true, get: function () { return enums_1.BadgePoints; } });
