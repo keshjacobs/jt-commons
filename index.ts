@@ -16,4 +16,4 @@ export { JwtModule, Password } from "./lib";
 export { verifyToken } from "./middlewares";
 
 // Enums
-export { NotificationEvents } from "./enums";
+export { NotificationEvents, BadgeLevels, BadgePoints } from "./enums";
