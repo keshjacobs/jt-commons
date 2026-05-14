@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.BadgePoints = exports.BadgeLevels = exports.NotificationEvents = exports.verifyToken = exports.Password = exports.JwtModule = exports.IdentityGenerator = exports.httpStatus = exports.errorResponse = exports.successResponse = exports.getVerificationCodeExpiryDate = exports.generateVerificationCode = exports.codeGen = void 0;
+exports.BadgePoints = exports.BadgeLevels = exports.NotificationEvents = exports.verifyToken = exports.bumpLastActive = exports.logActivity = exports.Password = exports.JwtModule = exports.IdentityGenerator = exports.httpStatus = exports.errorResponse = exports.successResponse = exports.getVerificationCodeExpiryDate = exports.generateVerificationCode = exports.codeGen = void 0;
 // Helpers
 var helpers_1 = require("./helpers");
 Object.defineProperty(exports, "codeGen", { enumerable: true, get: function () { return helpers_1.codeGen; } });
@@ -14,6 +14,8 @@ Object.defineProperty(exports, "IdentityGenerator", { enumerable: true, get: fun
 var lib_1 = require("./lib");
 Object.defineProperty(exports, "JwtModule", { enumerable: true, get: function () { return lib_1.JwtModule; } });
 Object.defineProperty(exports, "Password", { enumerable: true, get: function () { return lib_1.Password; } });
+Object.defineProperty(exports, "logActivity", { enumerable: true, get: function () { return lib_1.logActivity; } });
+Object.defineProperty(exports, "bumpLastActive", { enumerable: true, get: function () { return lib_1.bumpLastActive; } });
 // Middlewares
 var middlewares_1 = require("./middlewares");
 Object.defineProperty(exports, "verifyToken", { enumerable: true, get: function () { return middlewares_1.verifyToken; } });

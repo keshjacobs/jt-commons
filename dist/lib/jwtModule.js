@@ -20,7 +20,7 @@ function parseTokenFromAuthorizationHeader(req) {
 }
 function verify(token) {
     const verifyOptions = {
-        algorithm: "RS256",
+        algorithms: ["RS256"],
     };
     try {
         return jsonwebtoken_1.default.verify(token, config_1.default.JWT_TOKEN, verifyOptions);
