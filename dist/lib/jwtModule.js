@@ -8,6 +8,7 @@ const jsonwebtoken_1 = __importDefault(require("jsonwebtoken"));
 function sign(payload) {
     const signingOptions = {
         expiresIn: "365d",
+        algorithm: "HS256",
     };
     return jsonwebtoken_1.default.sign(payload, config_1.default.JWT_TOKEN, signingOptions);
 }
@@ -20,12 +21,13 @@ function parseTokenFromAuthorizationHeader(req) {
 }
 function verify(token) {
     const verifyOptions = {
-        algorithms: ["RS256"],
+        algorithms: ["HS256"],
     };
     try {
         return jsonwebtoken_1.default.verify(token, config_1.default.JWT_TOKEN, verifyOptions);
     }
     catch (err) {
+        console.error("JWT verify failed:", err.name, "-", err.message, "| token prefix:", String(token).slice(0, 20), "| secret present:", !!config_1.default.JWT_TOKEN, "| secret length:", config_1.default.JWT_TOKEN?.length);
         return null;
     }
 }
