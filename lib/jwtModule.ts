@@ -24,7 +24,19 @@ function verify(token: any): any {
 
   try {
     return jwt.verify(token, config.JWT_TOKEN as string, verifyOptions);
-  } catch (err) {
+  } catch (err: any) {
+    console.error(
+      "JWT verify failed:",
+      err.name,
+      "-",
+      err.message,
+      "| token prefix:",
+      String(token).slice(0, 20),
+      "| secret present:",
+      !!config.JWT_TOKEN,
+      "| secret length:",
+      config.JWT_TOKEN?.length,
+    );
     return null;
   }
 }
