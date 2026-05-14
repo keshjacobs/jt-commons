@@ -4,6 +4,7 @@ import jwt, { SignOptions, VerifyOptions } from "jsonwebtoken";
 function sign(payload: any) {
   const signingOptions: SignOptions = {
     expiresIn: "365d",
+    algorithm: "HS256",
   };
   return jwt.sign(payload, config.JWT_TOKEN as string, signingOptions);
 }
@@ -18,7 +19,7 @@ function parseTokenFromAuthorizationHeader(req: any) {
 
 function verify(token: any): any {
   const verifyOptions: VerifyOptions = {
-    algorithms: ["RS256"],
+    algorithms: ["HS256"],
   };
 
   try {
