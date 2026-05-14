@@ -10,13 +10,7 @@ export {
 } from "./helpers";
 
 // Lib
-export {
-  JwtModule,
-  Password,
-  logActivity,
-  bumpLastActive,
-  LogActivityParams,
-} from "./lib";
+export { JwtModule, Password } from "./lib";
 
 // Middlewares
 export { verifyToken } from "./middlewares";
