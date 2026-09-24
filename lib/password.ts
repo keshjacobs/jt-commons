@@ -19,7 +19,6 @@ export class Password {
 
 	static async encrypt(providedPassword: string) {
 		var hash = hashSync(providedPassword, 10); 
-		console.log('Generated Hash:', hash);
 		return hash;
 	}
 
