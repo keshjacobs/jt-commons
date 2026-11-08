@@ -12,13 +12,19 @@ export {
   getBadgeLevelForPoints,
   getReferrerSignupReward,
   getReferrerPostReward,
+  POINTS_PER_WITHDRAWAL_UNIT,
+  NAIRA_PER_WITHDRAWAL_UNIT,
+  MIN_WITHDRAWAL_NAIRA,
+  getActiveCampaign,
+  calculateWithdrawal,
+  getMinWithdrawalPoints,
 } from "./helpers";
 
 // Lib
 export { JwtModule, Password } from "./lib";
 
 // Middlewares
-export { verifyToken } from "./middlewares";
+export { verifyToken, requireAdmin } from "./middlewares";
 
 // Enums
 export { NotificationEvents, BadgeLevels, BadgePoints } from "./enums";
