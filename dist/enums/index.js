@@ -1,8 +1,14 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.BadgePoints = exports.BadgeLevels = exports.NotificationEvents = void 0;
+exports.roleHasPermissions = exports.permissionsForRole = exports.isAdminRole = exports.ROLE_PERMISSIONS = exports.AdminPermission = exports.BadgePoints = exports.BadgeLevels = exports.NotificationEvents = void 0;
 var notification_1 = require("./notification");
 Object.defineProperty(exports, "NotificationEvents", { enumerable: true, get: function () { return notification_1.NotificationEvents; } });
 var badge_1 = require("./badge");
 Object.defineProperty(exports, "BadgeLevels", { enumerable: true, get: function () { return badge_1.BadgeLevels; } });
 Object.defineProperty(exports, "BadgePoints", { enumerable: true, get: function () { return badge_1.BadgePoints; } });
+var adminPermission_1 = require("./adminPermission");
+Object.defineProperty(exports, "AdminPermission", { enumerable: true, get: function () { return adminPermission_1.AdminPermission; } });
+Object.defineProperty(exports, "ROLE_PERMISSIONS", { enumerable: true, get: function () { return adminPermission_1.ROLE_PERMISSIONS; } });
+Object.defineProperty(exports, "isAdminRole", { enumerable: true, get: function () { return adminPermission_1.isAdminRole; } });
+Object.defineProperty(exports, "permissionsForRole", { enumerable: true, get: function () { return adminPermission_1.permissionsForRole; } });
+Object.defineProperty(exports, "roleHasPermissions", { enumerable: true, get: function () { return adminPermission_1.roleHasPermissions; } });
