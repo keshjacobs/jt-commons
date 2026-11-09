@@ -1,2 +1,2 @@
 export { verifyToken } from "./verifyToken";
-export { requireAdmin } from "./requireAdmin";
+export { createAdminGuard, AdminRecord, AdminContext } from "./adminGuard";
