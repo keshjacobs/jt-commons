@@ -12,11 +12,6 @@ exports.roleHasPermissions =
   exports.verifyToken =
   exports.Password =
   exports.JwtModule =
-  exports.getReferrerPostReward =
-  exports.getReferrerSignupReward =
-  exports.getBadgeLevelForPoints =
-  exports.REFERRAL_POST_REWARD_WINDOW_DAYS =
-  exports.REFERRED_USER_SIGNUP_REWARD =
   exports.fillDailySeries =
   exports.startOfWindow =
   exports.escapeRegex =
@@ -24,6 +19,17 @@ exports.roleHasPermissions =
   exports.parseDays =
   exports.paginated =
   exports.parsePagination =
+  exports.getMinWithdrawalPoints =
+  exports.calculateWithdrawal =
+  exports.getActiveCampaign =
+  exports.MIN_WITHDRAWAL_NAIRA =
+  exports.NAIRA_PER_WITHDRAWAL_UNIT =
+  exports.POINTS_PER_WITHDRAWAL_UNIT =
+  exports.getReferrerPostReward =
+  exports.getReferrerSignupReward =
+  exports.getBadgeLevelForPoints =
+  exports.REFERRAL_POST_REWARD_WINDOW_DAYS =
+  exports.REFERRED_USER_SIGNUP_REWARD =
   exports.IdentityGenerator =
   exports.httpStatus =
   exports.errorResponse =
@@ -104,6 +110,42 @@ Object.defineProperty(exports, "getReferrerPostReward", {
   enumerable: true,
   get: function () {
     return helpers_1.getReferrerPostReward;
+  },
+});
+Object.defineProperty(exports, "POINTS_PER_WITHDRAWAL_UNIT", {
+  enumerable: true,
+  get: function () {
+    return helpers_1.POINTS_PER_WITHDRAWAL_UNIT;
+  },
+});
+Object.defineProperty(exports, "NAIRA_PER_WITHDRAWAL_UNIT", {
+  enumerable: true,
+  get: function () {
+    return helpers_1.NAIRA_PER_WITHDRAWAL_UNIT;
+  },
+});
+Object.defineProperty(exports, "MIN_WITHDRAWAL_NAIRA", {
+  enumerable: true,
+  get: function () {
+    return helpers_1.MIN_WITHDRAWAL_NAIRA;
+  },
+});
+Object.defineProperty(exports, "getActiveCampaign", {
+  enumerable: true,
+  get: function () {
+    return helpers_1.getActiveCampaign;
+  },
+});
+Object.defineProperty(exports, "calculateWithdrawal", {
+  enumerable: true,
+  get: function () {
+    return helpers_1.calculateWithdrawal;
+  },
+});
+Object.defineProperty(exports, "getMinWithdrawalPoints", {
+  enumerable: true,
+  get: function () {
+    return helpers_1.getMinWithdrawalPoints;
   },
 });
 Object.defineProperty(exports, "parsePagination", {
